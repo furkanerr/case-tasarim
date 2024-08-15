@@ -1,0 +1,15 @@
+/* styles.module.css veya ilgili stil dosyasına ekleyin */
+.buttoncontainer {
+    display: flex;
+    flex-direction: row; /* Masaüstü görünümünde yan yana dizilmesini sağlar */
+    gap: 10px;
+    justify-content: center;
+    
+  }
+  
+  .buttoncontainer .btn {
+    flex: 1;
+  }
+  
+
+  

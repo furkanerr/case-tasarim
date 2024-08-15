@@ -1,0 +1,123 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #78350F;
+  box-sizing: border-box;
+}
+
+.map-point {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #A3E635;
+  background-color: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Z-index değerini artırın */
+   top: 40%; left: 20%;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%; /* Tooltip'in noktanın hemen altında görünmesini sağlar */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  background-color: #FFF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 99;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: -10px; /* Ok işaretini üstte yerleştirin */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #FFF transparent; /* Ok işareti rengi */
+}
+
+.tooltip img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.tooltip p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.tooltip-inner{
+  background-color: #FFF!important;
+}
+.cart-text-container {
+  background-color: #E2E8F0;
+ width: 100%;
+  height: auto;
+  border-radius: 5px;
+ 
+}
+
+.cart-text {
+  font-size: 16px;
+}
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 20; /* Tooltip'lerin üstünde görünmesi için */
+}
+
+@media (max-width: 768px) {
+  .tooltip {
+    position: absolute;
+    top: 100%; /* Tooltip'in noktanın hemen altında görünmesini sağlar */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 99;
+  }
+  .center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 20; /* Tooltip'lerin üstünde görünmesi için */
+  }
+  .map-point{
+    top: 40%; left: 80%;
+   
+  }
+  .map-container{
+    height: 400px;
+    padding: 0;
+  }
+}

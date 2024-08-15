@@ -1,0 +1,22 @@
+{
+    "products": [
+      {
+        "title": "Title",
+        "description": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+        "image":  "../datas/Picture.png",
+        "buttonText": "Buy Now"
+      },
+      {
+        "title": "Title",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image": "../datas/Picture.png",
+        "buttonText": "Add to Cart"
+      },
+      {
+        "title": "Title",
+        "description": "Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.",
+        "image":  "../datas/Picture.png",
+        "buttonText": "Shop Now"
+      }
+    ]
+  }

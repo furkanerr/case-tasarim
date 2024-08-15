@@ -1,0 +1,40 @@
+.card-custom {
+    width: 100%;
+    max-width: 384px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .card-title-custom {
+    font-size: 1.25rem;
+    font-weight: bold;
+    gap: 10px;
+  }
+  
+  .card-text-custom {
+    font-size: 24px;
+    
+  }
+  
+  .card-body-custom {
+    padding: 1.5rem;
+  }
+  
+  .img-custom {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .name-custom {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .role-custom {
+    font-size:16;
+    color: #475569;
+  }
+  .brand-custom{
+    font-size: 24px;
+    color: #475569;
+  }

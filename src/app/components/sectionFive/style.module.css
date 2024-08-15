@@ -1,0 +1,130 @@
+.navLink {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #0f172a !important; /* Yazı ve ikon rengi */
+  font-size: 20px; /* Yazı boyutu */
+  font-weight: 500; /* Yazı kalınlığı (medium) */
+}
+
+.nav-pills .nav-link.active {
+  background-color: #ffffff !important; /* Seçili olan menü arka planı beyaz */
+  border-radius: 8px; /* Hafif köşeli görünüm için */
+}
+
+.navIcon {
+  margin-right: 10px; /* İkon ve metin arasındaki boşluk */
+  color: #0f172a; /* İkon rengi */
+}
+
+.Tabcontainer {
+  background-color: #fdfbf3;
+  position: relative;
+  z-index: 10;
+}
+.title {
+  font-size: 56px;
+}
+
+.waveWrapper {
+  width: 100%;
+
+  overflow: hidden; /* Dalga taşmalarını gizlemek için */
+}
+
+.wave1,
+.wave2,
+.wave3 {
+  position: absolute;
+  width: 100%;
+  height: 100%; /* Dalga görsellerini dikey olarak uzatmak isterseniz */
+  top: 0;
+  left: 0;
+}
+
+.wave1 {
+  z-index: 1; /* Üstte yer alan dalga */
+  top: 210px; /* Dalganın üstten biraz aşağıya kayması için */
+}
+
+.wave2 {
+  z-index: 2; /* Orta dalga */
+  top: 350px; /* Dalganın üstten biraz daha aşağıya kayması için */
+}
+
+.wave3 {
+  z-index: 3; /* Altta yer alan dalga */
+  top: 550px; /* Dalganın en altta olması için */
+}
+@media (max-width:1024px) {
+    .wave1 {
+      top: 310px; /* Daha yukarı kaydırmak için */
+    }
+  
+    .wave2 {
+      top: 370px; /* Daha yukarı kaydırmak için */
+    }
+  
+    .wave3 {
+      top: 480px; /* Daha yukarı kaydırmak için */
+    }
+  }
+@media (max-width: 768px) {
+    .wave1 {
+      top: 540px; /* Daha yukarı kaydırmak için */
+    }
+  
+    .wave2 {
+      top: 550px; /* Daha yukarı kaydırmak için */
+    }
+  
+    .wave3 {
+      top: 670px; /* Daha yukarı kaydırmak için */
+    }
+  }
+  
+  /* Ekran genişliği 480px ve altında */
+  @media (max-width: 480px) {
+    .wave1 {
+      top: 570px; /* Daha yukarı kaydırmak için */
+    }
+  
+    .wave2 {
+      top: 615px; /* Daha yukarı kaydırmak için */
+    }
+  
+    .wave3 {
+      top: 670px; /* Daha yukarı kaydırmak için */
+    }
+  }
+
+  /* Menü konteyneri için stil */
+  .navContainer {
+    display: flex;
+   
+  }
+  
+  /* Menü elemanlarının stilini ayarlayın */
+  .navItem {
+    display: flex;
+   
+  }
+  
+  /* Mobil görünüm için stil */
+  @media (max-width: 768px) {
+    .navContainer {
+      overflow-x: auto!important;
+    }
+    
+    .navItem {
+      display: inline-block!important;;
+      flex: 0 0 auto!important;;
+      margin-right: 10px;
+    }
+  }
+  
+  /* Tarayıcı kaydırma çubuğunu gizlemek */
+  .navContainer::-webkit-scrollbar {
+    display: none!important;; /* Webkit tabanlı tarayıcılar için */
+  }
+  

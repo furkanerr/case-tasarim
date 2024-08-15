@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "cup", 
+        "title": "Free Shipping",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at orci non metus ultricies laoreet."
+    },
+    {
+        "icon": "cup",
+        "title": "100% Secure",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at orci non metus ultricies laoreet."
+    },
+    {
+        "icon": "cup",
+        "title": "24/7 Support",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at orci non metus ultricies laoreet."
+    }
+]

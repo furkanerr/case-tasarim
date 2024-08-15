@@ -1,0 +1,15 @@
+.cardContainer {
+    /* Kart arka plan rengi */
+    border: 1px solid #ddd; /* Kart kenarları için hafif bir sınır */
+    box-shadow: 0 8px 16px rgba(228, 223, 223, 0.2); /* Gölge efekti */
+    transition: box-shadow 0.3s ease; /* Hover efekti için geçiş */
+  }
+  
+  .cardContainer:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Hover üzerindeki daha belirgin gölge efekti */
+  }
+  
+  .image-container img {
+    border-bottom: 1px solid #ddd; /* Resim ve içerik arasına hafif bir sınır */
+  }
+  

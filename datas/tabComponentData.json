@@ -1,0 +1,45 @@
+[
+    {
+      "id": "home",
+      "title": "Home",
+      "icon": "home",
+      "content": "This is the home section content.",
+      "image": "https://via.placeholder.com/400x200?text=Home"
+    },
+    {
+      "id": "profile",
+      "title": "Profile",
+      "icon": "user",
+      "content": "This is the profile section content.",
+      "image": "https://via.placeholder.com/400x200?text=Profile"
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "icon": "envelope",
+      "content": "This is the contact section content.",
+      "image": "https://via.placeholder.com/400x200?text=Contact"
+    },
+    {
+      "id": "services",
+      "title": "Services",
+      "icon": "phone",
+      "content": "This is the services section content.",
+      "image": "https://via.placeholder.com/400x200?text=Services"
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "icon": "infoCircle",
+      "content": "This is the about section content.",
+      "image": "https://via.placeholder.com/400x200?text=About"
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "icon": "cogs",
+      "content": "This is the settings section content.",
+      "image": "https://via.placeholder.com/400x200?text=Settings"
+    }
+  ]
+  

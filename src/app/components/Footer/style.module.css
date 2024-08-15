@@ -1,0 +1,114 @@
+.footer {
+    background: #0F172A;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 1rem;
+    text-align: center; /* Ortalamayı sağlamak için ekledik */
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin-bottom: 0.5rem;
+  }
+  
+  .link {
+    color: #d1d5db; /* Gri renk - beyazdan açık olacak */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: white;
+  }
+  
+  .appLinks {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Mobilde ortalamak için ekledik */
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Mobilde ortalamak için ekledik */
+  }
+  
+  .socialIcon {
+    color: #d1d5db; /* Gri renk - beyazdan açık olacak */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .socialIcon:hover {
+    color: white;
+  }
+  
+  .divider {
+    background: white;
+    height: 1px;
+    margin: 2rem 0;
+  }
+  
+  .bottomRow {
+    display: flex;
+    flex-direction: row; /* Mobilde ortalamak için ekledik */
+    align-items: center; /* Mobilde ortalamak için ekledik */
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .footerText {
+    color: gray;
+  }
+  
+  .bottomLinks {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap; /* Mobilde satırlara sarkmaması için ekledik */
+    justify-content: center; /* Mobilde ortalamak için ekledik */
+  }
+  
+  .bottomLink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .bottomLink:hover {
+    color: gray;
+  }
+  @media (max-width: 768px) {
+    .bottomRow {
+        display: flex;
+        flex-direction: column; /* Mobilde ortalamak için ekledik */
+        align-items: center; /* Mobilde ortalamak için ekledik */
+        text-align: center;
+       
+      }
+  }

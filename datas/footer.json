@@ -1,0 +1,46 @@
+{
+    "footer": [
+      {
+        "title": "Product",
+        "links": [
+          { "title": "Pricing", "url": "#" },
+          { "title": "Overview", "url": "#" },
+          { "title": "Browse", "url": "#" },
+          { "title": "Accessibility", "url": "#" },
+          { "title": "Five", "url": "#" }
+        ]
+      },
+      {
+        "title": "Solutions",
+        "links": [
+          { "title": "Brainstorming", "url": "#" },
+          { "title": "Ideation", "url": "#" },
+          { "title": "Wireframing", "url": "#" },
+          { "title": "Research", "url": "#" },
+          { "title": "Design", "url": "#" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "title": "Contact Us", "url": "#" },
+          { "title": "Developers", "url": "#" },
+          { "title": "Documentation", "url": "#" },
+          { "title": "Integrations", "url": "#" },
+          { "title": "Reports", "url": "#" }
+        ]
+      }
+      
+    ],
+   "socialMedia": {
+        "title": "Social Media",
+        "links": [
+          { "title": "Youtube", "url": "https://www.youtube.com" },
+          { "title": "Facebook", "url": "https://www.facebook.com" },
+          { "title": "Twitter", "url": "https://twitter.com" },
+          { "title": "Instagram", "url": "https://www.instagram.com" },
+          { "title": "LinkedIn", "url": "https://www.linkedin.com/" }
+        ]
+      }
+  }
+  

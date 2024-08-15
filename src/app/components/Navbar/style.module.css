@@ -1,0 +1,27 @@
+.customNavbar {
+    background-color: #FFFBEB; /* Arka plan rengini burada belirleyin */
+  }
+
+  .navLink {
+    color: #78350F !important; /* Tüm yazı rengi */
+    margin-right: 30px; /* Butonlar arası mesafe */
+    align-items: center;
+    justify-content: center; 
+     display: flex!important;
+  }
+  
+  .navLink:hover {
+    text-decoration: none;
+  }
+  
+  .navSignup {
+    color: #78350F !important; /* Yazı rengi */
+    border: 2px solid #78350F!important; /* Border rengi */
+    background-color: transparent; /* Arka planı kaldır */
+    padding: 12px 12px!important; /* Butonun içine padding ekleyin */
+    border-radius: 5px; /* Köşeleri yuvarlayın */
+  }
+  
+  .navSignup:hover {
+    background-color: #FFFBEB; /* Hover durumu için arka plan rengi */
+  }

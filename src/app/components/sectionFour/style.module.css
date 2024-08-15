@@ -1,0 +1,97 @@
+.sectionContainer {
+    padding: 50px 0;
+    background-color: #FDFBF3;
+    position: relative; /* Konteynerin pozisyonunu belirle */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Buton stilleri */
+.swiperButton {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #78350F;
+    border-radius: 50%;
+    color: #78350F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.swiperButton:hover {
+    background-color: white;
+}
+.cardContent {
+    position: relative;
+    z-index: 2; /* Kartların sarı arka planın üstünde görünmesi için */
+    padding-top: 70px; /* Kartların sarı arka planın içinde düzgün yerleşmesini sağlar */
+}
+/* Sarı arka plan */
+.cardBackground {
+    position: absolute; /* Kartların arkasında sabit kalması için absolute */
+    top: 150px; /* Kartların hizasından 150px yukarıda yer alır, başlık ve butonlardan 50px boşluk sağlar */
+    left: 0;
+    right: 0;
+    margin: 0 auto; /* Ortalanmış arka plan */
+    width: 90%; /* Etrafında boşluk bırakmak için genişlik ayarı */
+    height: 300px; /* Yüksekliği ihtiyaca göre ayarla */
+    background-color: #FFEB3B; /* Sarı arka plan rengi */
+    border-radius: 20px; /* Köşeleri yuvarlak yap */
+    z-index: 1; /* Kartların arkasında kalmasını sağla */
+    padding-top: 50px; /* Üstteki başlık ve butonlardan boşluk bırakır */
+}
+@media (max-width: 767px) {
+    .cardBackground {
+        width: 100%; /* Mobil ekranlarda genişliği yüzde 100 yap */
+        top: 230px;
+        height: 350px;
+        border-radius: 0px;  /* Ekran alanını daha iyi kullanmak için yukarıdan mesafe ayarla */
+    }
+    .swiperButton {
+        display: none; /* Mobil ekranlarda görünmez yap */
+    }
+    .cardContent {
+        position: relative;
+        z-index: 2; /* Kartların sarı arka planın üstünde görünmesi için */
+        padding-top: 20px; /* Kartların sarı arka planın içinde düzgün yerleşmesini sağlar */
+    }
+
+}
+
+@media (max-width: 420px) {
+    .cardBackground {
+        width: 100%; /* Mobil ekranlarda genişliği yüzde 100 yap */
+        top: 230px;
+        height: 350px;
+        border-radius: 0px;  /* Ekran alanını daha iyi kullanmak için yukarıdan mesafe ayarla */
+    }
+    .swiperButton {
+        display: none; /* Mobil ekranlarda görünmez yap */
+    }
+    .cardContent {
+        position: relative;
+        z-index: 2; /* Kartların sarı arka planın üstünde görünmesi için */
+        padding-top: 20px; /* Kartların sarı arka planın içinde düzgün yerleşmesini sağlar */
+    }
+
+}

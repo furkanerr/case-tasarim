@@ -1,0 +1,36 @@
+.card {
+    background-color: #FDFBF3;
+    padding-bottom: 160px;
+    padding-top: 160px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .cardWhite {
+    padding: 80px;
+  }
+  
+  .button {
+    color: #78350F;
+    border-color: #78350F;
+    width: 179px;
+    height: 56px;
+  }
+  
+  /* Mobil cihazlar için özel düzenlemeler */
+  @media (max-width: 767px) {
+    .card {
+        background-color: #FDFBF3;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .cardWhite {
+        padding: 16px;
+      }
+  .content{
+    align-items: center;
+  }
+  }
+  
